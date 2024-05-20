@@ -71,7 +71,7 @@ ulong ul = 5UL;
 bool val = true;
 // Bu durumda, bool C#'da bir veri türüdür ve sadece iki değeri alabilir: true (doğru) veya false (yanlış). Mantıksal operasyonlar ve karar yapıları gibi durumlarda sıklıkla kullanılır.
 
-string  valStr = "hello, this is a string literal";
+string  valStr = "hello, this is a string literal" + ul;
 
 string valStrOne  = $"{ul} değerini yazılabilir";
 
